@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Job Listings</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding-bottom: 10px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<script src="script.js"></script>
+<body>
+  <header id="main-header" class="mainHeader">
+    <div class="hscroll">
+      <div id="previous" class="previous btns" onclick="scrollHorizontally(1)" >&#8249;</div>
+      <div id="next" class="next btns" onclick="scrollHorizontally(-1)"> &#8250;</div>
+      <div id="filter-box"></div>
+  </div>
+  </header>
+  <section class="main-section" id="mainSection">
+    <div class="container" id="contains"></div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Oluwatobiloba Bamisebi</a>.
+  </div>
+</body>
+</html>

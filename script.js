@@ -177,7 +177,7 @@ fetch('data.json',{
   function scrollHorizontally(val){
 
     let currentScrollPosition = 0;
-    let scrollAmount = 400;
+    let scrollAmount = 420;
     const filterBox = document.getElementById("filter-box")
     const hScroll = document.querySelector(".hscroll")
     const previous = document.querySelector("#previous")
